@@ -1,10 +1,14 @@
 let dia= 'lunes'
 
-switch (dia) {
-    case 'lunes':
-    case 'martes':    
-        console.log ('tienes clases con cesar')
+function tengoClases(dia){
     
-    default:
-        console.log('tienes clases pero no se con quien')
-}
+    switch (dia) {
+        case 'lunes':
+        case 'martes':    
+            console.log ('tienes clases con cesar')
+            break;
+        
+        default:
+            console.log('tienes clases pero no se con quien')
+    }
+};
